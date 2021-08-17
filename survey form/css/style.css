@@ -1,0 +1,66 @@
+body{
+    margin: 0;padding: 0;
+    background-image: url(../images/background.jpeg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(94, 94, 216, 0.699);  
+    height: 1100px; 
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    margin: 2px;
+    font-weight: bold;
+    color: white;
+}
+.tagline{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+#container{
+    width: 50%;
+    height: 970px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(12, 12, 12, 0.75);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+form{
+    width: 100%;
+}
+p{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="area"]{
+    width : 96%;
+    padding: 10px;
+    border-radius: 5px;
+}
+select{
+    display: block;
+    width: 99%;
+    height: 40px;
+}
+.input-radio, .input-checkbox{
+   margin: 5px;
+}
+input[type="submit"]{
+    text-align: center;
+    background-color: rgba(53, 199, 150, 0.658);
+    width: 99%;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
